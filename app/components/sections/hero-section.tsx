@@ -44,9 +44,9 @@ export default function HeroSection() {
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
               Transforme sua operação logística com uma plataforma white label completa para gestão de armazéns e envio de remessas.
             </p>
-            <div className="mt-10 flex flex-col sm:flex-row gap-4 sm:gap-x-6">
+            <div className="mt-10 flex mb-12 flex-col sm:flex-row gap-4 sm:gap-x-6">
               <Button 
-                variant="accent" 
+                variant="default" 
                 size="lg" 
                 className="group w-full sm:w-auto"
                 onClick={() => setContactFormOpen(true)}
@@ -55,7 +55,7 @@ export default function HeroSection() {
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Button>
               <Button 
-                variant="outline" 
+                variant="link" 
                 size="lg" 
                 className="flex items-center gap-2 w-full sm:w-auto"
                 onClick={() => setVideoModalOpen(true)}
